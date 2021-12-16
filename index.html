@@ -93,14 +93,7 @@ opacity: 80%;
       if (document.querySelector('input').value == '') {
         document.querySelector('.mylable').classList.remove('hide');
       }
-      else 
-        {
-          document.querySelector('.mylable').classList.add('hide');
-          document.querySelector('input').value = '';
-          bravo.classList.remove('hide');
-          bravo.currentTime = 0;
-          bravo.play();
-        }
+      
     })
     bravo.addEventListener('ended', ()=>{
       bravo.classList.add('hide');
